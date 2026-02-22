@@ -23,16 +23,17 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-^=kn+1e3qi0rxqwk*bnt14qhnhl&xos(z&12@9+g3-2cg5o(4_'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
+    'ostad-batch-10-todo.onrender.com'
     'localhost',
     '127.0.0.1',
     'subclimatic-sherri-nonprovocatively.ngrok-free.dev',
     '.ngrok-free.dev',  # Allow all ngrok-free.dev subdomains
     '.ngrok.io',  # Allow all ngrok.io subdomains (for paid ngrok)
     'testtttttt-kf9v.onrender.com'
-    'ostad-batch-10-todo.onrender.com'
+    
 ]
 
 # CSRF trusted origins for ngrok
