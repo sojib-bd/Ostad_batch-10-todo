@@ -32,6 +32,7 @@ ALLOWED_HOSTS = [
     '.ngrok-free.dev',  # Allow all ngrok-free.dev subdomains
     '.ngrok.io',  # Allow all ngrok.io subdomains (for paid ngrok)
     'testtttttt-kf9v.onrender.com'
+    'ostad-batch-10-todo.onrender.com'
 ]
 
 # CSRF trusted origins for ngrok
