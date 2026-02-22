@@ -137,5 +137,81 @@ python manage.py test
 
 ## License
 
+##**Project Intro**  
+
 This project is open source and available for educational purposes.
+
+A simple and clean Todo web application built with Django that allows users to create, update, mark as complete, and delete tasks.
+The application helps users manage daily tasks efficiently through an intuitive and user-friendly interface.
+
+**Features**  
+   
+   ➕ Create new tasks  
+   
+   ✏️ Edit existing tasks  
+   
+   ✅ Mark tasks as completed  
+   
+   🗑️ Delete tasks  
+   
+   📂 Filter tasks (All / Active / Completed)  
+
+
+**Tech Stack**  
+
+   Python  
+   
+   Django  
+   
+   SQLite (default database)  
+   
+   HTML / CSS  
+
+
+**Run Locally  **
+
+   1️⃣ Clone the Repository  
+   
+   git clone <your-repository-url>  
+   
+   cd <your-project-folder>  
+   
+   2️⃣ Create Virtual Environment  
+   
+   python -m venv venv  
+
+
+**Activate it: ** 
+
+
+   Windows:  
+   
+   venv\Scripts\activate  
+   
+   
+   Mac/Linux:  
+   
+   source venv/bin/activate  
+   
+   3️⃣ Install Dependencies  
+   
+   pip install -r requirements.txt  
+   
+   4️⃣ Apply Migrations  
+   
+   python manage.py migrate  
+   
+   5️⃣ Run Development Server  
+   
+   python manage.py runserver  
+
+
+Open your browser and go to:  
+
+http://127.0.0.1:8000/
+
+🌍 Live Demo  
+
+🔗 Live URL:
+https://ostad-batch-10-todo.onrender.com
 
